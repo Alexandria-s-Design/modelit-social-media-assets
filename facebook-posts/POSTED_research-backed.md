@@ -1,6 +1,6 @@
 ---
 status: READY
-image: 2025-11-17_facebook_systems-thinking-tip_v1.png
+image: 2025-11-17_facebook_research-backed_v1.png
 ---
 
 🔬 ModelIt K12 isn't just educational software—it's built on peer-reviewed research.

@@ -1,6 +1,6 @@
 ---
 status: READY
-image: 2025-11-17_facebook_systems-thinking-tip_v1.png
+image: 2025-11-17_facebook_stem-careers_v1.png
 ---
 
 💼 Where do systems thinking skills lead?

@@ -1,6 +1,6 @@
 ---
 status: READY
-image: 2025-11-17_facebook_systems-thinking-tip_v1.png
+image: 2025-11-17_facebook_feedback-loops_v1.png
 ---
 
 🔄 What's a feedback loop? It's nature's way of self-regulation.

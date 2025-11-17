@@ -1,6 +1,6 @@
 ---
 status: READY
-image: 2025-11-17_facebook_systems-thinking-tip_v1.png
+image: 2025-11-17_facebook_accessible-learning_v1.png
 ---
 
 🌍 Every student deserves access to high-quality STEM education. Everywhere.
