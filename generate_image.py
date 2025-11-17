@@ -4,12 +4,26 @@ Generate a single image with Nano Banana (Gemini 2.5 Flash Image)
 Usage: python generate_image.py "your image prompt here"
 """
 import sys
+import os
 import requests
 import base64
 from datetime import datetime
 
-# Configuration
-OPENROUTER_API_KEY = "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"
+# Configuration - Load from environment to avoid exposing keys
+OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY')
+if not OPENROUTER_API_KEY:
+    # Fallback: Try loading from /workspace/.env
+    env_path = '/workspace/.env'
+    if os.path.exists(env_path):
+        with open(env_path) as f:
+            for line in f:
+                if line.startswith('OPENROUTER_API_KEY='):
+                    OPENROUTER_API_KEY = line.split('=', 1)[1].strip()
+                    break
+
+if not OPENROUTER_API_KEY:
+    print("❌ Error: OPENROUTER_API_KEY not found in environment or /workspace/.env")
+    sys.exit(1)
 
 def generate_image(prompt, topic_slug):
     """Generate image with Gemini 2.5 Flash Image"""

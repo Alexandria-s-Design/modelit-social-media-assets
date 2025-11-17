@@ -162,7 +162,7 @@ for row in rows:
     image_response = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
         headers={
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer YOUR_OPENROUTER_API_KEY"
         },
         json={
             "model": "google/gemini-2.5-flash-image",
@@ -263,7 +263,7 @@ for i, post in enumerate(posts):
     # Generate image
     image_response = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
-        headers={"Authorization": "Bearer sk-or-v1-..."},
+        headers={"Authorization": "Bearer YOUR_OPENROUTER_API_KEY"},
         json={
             "model": "google/gemini-2.5-flash-image",
             "modalities": ["image", "text"],
