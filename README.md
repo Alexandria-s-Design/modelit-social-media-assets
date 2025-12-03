@@ -64,3 +64,11 @@ Use these URLs in Ayrshare `mediaUrls` parameter for automated posting.
 
 **Created:** 2025-11-17
 **Maintained by:** Alexandria's Design Team
+
+## Status
+Active
+
+## TODO
+- [ ] Update with latest content
+- [ ] Optimize asset organization
+- [ ] Add metadata documentation
